@@ -4,6 +4,8 @@ body{
 }
 .home{
     font-size: 20px;
+    border-bottom: 2px whitesmoke solid;
+    padding: 20px;
 }
 button{
     background-color: blue;
