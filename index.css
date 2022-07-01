@@ -1,11 +1,24 @@
 *{
-    background-color: cornsilk;
+padding: 2  0;
+margin: 0;
+}
+body{
+    background-color: white;
+}
+.home{
+    font-size: 20px;
 }
 button{
     background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
 }
 
-footer{
+.footer{
     background-color: blue;
     color: white;
+}
+a{
+color: red;
 }
