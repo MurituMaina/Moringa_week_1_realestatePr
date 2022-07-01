@@ -1,7 +1,4 @@
-*{
-padding: 2  0;
-margin: 0;
-}
+
 body{
     background-color: white;
 }
@@ -21,4 +18,12 @@ button{
 }
 a{
 color: red;
+}
+.choose img_2{
+    height: 400px;
+    width: 400px;
+}
+img{
+    height: 400px;
+    width: 400px;
 }
