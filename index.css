@@ -105,21 +105,22 @@ body {
     text-align: left;
     font-size: ;
     float: left;
-    height: 400px;
+    height: 200px;
     width: 200px;
     border:  10px black solid;
 }
+.House_Img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 30px;
+}
+
 
 .but_2 {
     color: white;
     float: left;
-    
-}
-.House_Img {
-    height: 300px;
-    width: 300px;
-    float: right;
-    padding: 30px;
+
 }
 
 /* */
