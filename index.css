@@ -315,7 +315,7 @@ h2 {
 
 }
 
-/*
+
 
 #smart {
     height: 60px;
@@ -340,21 +340,47 @@ h2 {
     height: 100px;
     width: 100px;
 }
+.choose{
+    height: 1000px;
 
-.choose {
-    padding-left: 45px;
-    margin-left: 40px;
+}
+.choose_1{
+    float: left;
+    width: 45%;
+    height: 50%;
+    padding: 5px;
+    margin-left: 15px;
     padding: 50px;
+    overflow-wrap: normal;
 }
 
-#choose {
+.choose_2{
     float: right;
-    padding-left: 0px;
-    padding-right: 75px;
-    margin-right: 50px;
+    text-align: center;
+    
+    margin-right: 5px;
+    font-size: 2em;
+    width: 45%;
+    height: 40%;
 }
-*/
+.choose_2 p{
+    padding: 10px;
+    width: 100%;
+}
 
+p .sidel1{
+    text-align: left;
+
+}
+p .sidel2{
+    text-align: left;
+}
+p .sider1{
+    text-align: right;
+}
+p .sider2{
+text-align: left;
+}
 /*properties*/
 .properties {
     height: 750px;
