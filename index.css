@@ -3,8 +3,9 @@
 }
 
 body {
+    margin: 0;
     background-color: white;
-    padding: 50px;
+    padding: 0px;
 }
 
 /* */
@@ -12,7 +13,7 @@ body {
     height: 100px;
     min-width: 500px;
     font-size: 20px;
-    border-bottom: 5px whitesmoke solid;
+     -bottom: 5px whitesmoke solid;
     padding: 30px;
 }
 
@@ -145,7 +146,7 @@ body {
 
 
 .video {
-    border: 10px black;
+     : 10px black;
 }
 
 .video_ico {
@@ -274,7 +275,6 @@ h2 {
     height: 900px;
     padding: 20px;
     margin: 20px;
-    border: 10px solid black;
 }
 
 .products h1 {
@@ -284,7 +284,6 @@ h2 {
 
 .products .prd_in {
     font-size: 2em;
-    border: 10px solid black;
 
 }
 
@@ -329,7 +328,7 @@ h2 {
 
 #official {
 
-    border: 2px;
+     : 2px;
     float: right;
     margin: auto;
     padding: 20px;
@@ -355,7 +354,6 @@ h2 {
     padding: 5px;
     margin-left: 15px;
     padding: 50px;
-    overflow-wrap: normal;
 }
 
 .choose_2 {
@@ -409,13 +407,11 @@ figcaption p{
 
 .properties_main {
     text-align: justify;
-    border: 10px solid black;
     height: 100%;
 }
 
 .main {
     font-size: 2em;
-    border: blue solid 10px;
 
 }
 
@@ -448,7 +444,6 @@ figcaption p{
     height: 500px;
     margin: 10px;
     padding: 20px;
-    border: 10px solid black;
 
 
 
@@ -472,7 +467,7 @@ h1 {
     margin: 20px;
     margin-right: 40px;
     float: left;
-    border: 10px solid black;
+
 }
 
 .cust_a_2 {
@@ -481,7 +476,6 @@ h1 {
     width: 200px;
     padding: 20px;
     margin: auto;
-    border: 10px solid black;
 
 
 }
@@ -494,7 +488,7 @@ h1 {
     margin: 20px;
     margin-left: 40px;
     float: right;
-    border: 10px solid gold;
+     : 10px solid gold;
 
 
 }
