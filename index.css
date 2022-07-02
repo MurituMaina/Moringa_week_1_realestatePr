@@ -1,5 +1,5 @@
 * {
-    font-weight: 400;
+    font-weight: 200;
 }
 
 body {
@@ -10,9 +10,18 @@ body {
 /* */
 .home {
     height: 100px;
-    font-size: 30px;
+    min-width: 500px;
+    font-size: 20px;
     border-bottom: 5px whitesmoke solid;
     padding: 30px;
+}
+.hm_v {
+    float: left;
+    font-family: 'Ribbon 131 Bd BJ';
+    font-size: 40px;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 400px;
 }
 
 .home a {
@@ -23,16 +32,7 @@ body {
 
 .home a:active {
 
-    color: red;
-}
-
-.hm_v {
-    float: left;
-    font-family: 'Ribbon 131 Bd BJ';
-    font-size: 40px;
-    padding: 10px;
-    margin: 20px;
-    margin-right: 400px;
+    color: blue;
 }
 
 .hm_h {
@@ -117,9 +117,9 @@ body {
 }
 
 .crt_p {
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-style: italic;
-text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: none;
 }
 
 .House_Img {
@@ -154,53 +154,71 @@ text-decoration: none;
     margin: auto;
     font-size: 4em;
 }
-.loc{
-float: left;
-margin-top:10px;
-margin-left: 10px;
-margin-right: 10px;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
+
+.loc {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
- .search_loc{
-    display:inline-block bottom;
+
+.search_loc {
+    display: inline-block bottom;
     padding: 0px;
     color: lightgrey;
     min-width: 100px;
     font-size: 40px;
     margin: 0px;
 
- }
-.prot{
-    float: left;
-    margin:10px;
-    padding: 10px;
 }
-.type{
-    float: left;margin:10px;
-    padding: 10px;
-}
-.max{
-    float: left;
-    margin:10px;
-    padding: 10px;
-}
-.prices{
-    float: left;
-    padding: 10px;
-    margin:10px;
-}
-.search button{
-    
-    font-size: 1em;
-color:white;
-}
-.search img{
-    background-color:blue;
-    height: 50px;
-    width: 50px;
 
+.loc img {
+    height: 20px;
+    background-color: white;
+}
+
+.prot {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.type {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.max {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.prices {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.search .but_3 {
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    height: 100px;
+    width: 400px;
+    padding: 10px;
+
+}
+
+.search .but_3 img {
+    float: left;
+    height: 50px;
+    padding: 5px;
+    fill: grey;
 }
 
 /* */
@@ -247,7 +265,18 @@ h2 {
 .products {
     width: 100%;
     text-align: center;
-    height: 500px
+    height: 500px;
+    border: 10px solid black;
+}
+
+.products .prd_in {
+    font-size: 2em;
+    border: 10px solid black;
+
+}
+
+.prd_in h1 {
+    font-size: 2.5em;
 }
 
 #location {
@@ -275,6 +304,8 @@ h2 {
     margin: auto;
 
 }
+
+/*
 
 #smart {
     height: 60px;
@@ -312,6 +343,7 @@ h2 {
     padding-right: 75px;
     margin-right: 50px;
 }
+*/
 
 /*properties*/
 .properties {
@@ -320,24 +352,29 @@ h2 {
     margin: 20px;
 }
 
+.properties_main {
+    border: 10px solid black;
+    height: 500px;
+}
+
 .properties p {
 
     text-align: center;
 }
 
-.prts_pal1 {
+.properties_main .prts_pal1 {
     float: left;
     height: 200px;
     width: 200px;
     border: 10px black solid;
 }
 
-.prts_ror2 {
+.properties_main .prts_ror2 {
     margin: auto;
     border: 10px black solid;
 }
 
-.prts_rex3 {
+.properties_main .prts_rex3 {
     height: 100px;
     width: 100px;
     padding: 20px;
