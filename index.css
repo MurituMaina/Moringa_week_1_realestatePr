@@ -117,32 +117,6 @@ h2 {
     width: 100px;
 }
 
-.properties {
-    height: 220px;
-}
-
-.palace {
-    float: left;
-    padding: 20px;
-    margin: 50px;
-    height: 200px;
-    width: 200px;
-}
-
-.rory {
-    position: relative;
-    margin: 50px;
-    height: 200px;
-    width: 200px;
-}
-
-.rexona {
-    float: right;
-    margin: 50px;
-    height: 200px;
-    width: 200px;
-}
-
 .choose {
     padding-left: 45px;
     margin-left: 40px;
@@ -159,12 +133,34 @@ h2 {
 /*properties*/
 .properties {
     height: 500px;
+    padding: 20px;
+    margin: 20px;
+    border:  10px solid black;
+}
+.properties p{
+
+    text-align: center;
+}
+.prts_pal1{
+    float: left;
+    height:300px
+    border: 10px black solid;
+}
+.prts_ror2{
+    margin: auto;
+    border: 10px black solid;
+}
+.prts_rex3{
+    height: 300px;
+    padding: 20px;
+    float: right;
+    border: 10px black solid;
 }
 
 /* Customers*/
 .customers {
     height: 500px;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;;
     border: 10px solid black;
 
@@ -185,23 +181,33 @@ h1{
     width:200px; 
     padding:20px;
     margin:20px;
+    margin-right: 40px;
     float: left;
+    border: 10px solid black;
 }
 
 .cust_a_2 {
+
     height: 250px;
     width:200px;
     padding: 20px;
-    margin: 20px;
-    float: left;
+    margin: auto;
+    border: 10px solid black;
+
+
 }
 
 .cust_a_3 {
+
     height: 250px;
-    width:200px;
-    padding: 20px;
-    margin: 20px;
+    width:200px; 
+    padding:20px;
+    margin:20px;
+    margin-left: 40px;
     float: right;
+    border: 10px solid gold;
+
+    
 }
 
 /*Footer*/
