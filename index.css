@@ -116,7 +116,11 @@ body {
     font-size: 2em;
 }
 
-.crt_p {}
+.crt_p {
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+text-decoration: none;
+}
 
 .House_Img {
     float: right;
@@ -145,39 +149,57 @@ body {
 
 /**/
 .search {
-    width: 1100px;
-    padding:40px;
+    width: 1400px;
+    padding: 10px;
     margin: auto;
     font-size: 4em;
-    border: 10px black solid;
 }
 .loc{
 float: left;
-margin:10px;
+margin-top:10px;
+margin-left: 10px;
+margin-right: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
 }
+ .search_loc{
+    display:inline-block bottom;
+    padding: 0px;
+    color: lightgrey;
+    min-width: 100px;
+    font-size: 40px;
+    margin: 0px;
+
+ }
 .prot{
     float: left;
     margin:10px;
+    padding: 10px;
 }
 .type{
     float: left;margin:10px;
+    padding: 10px;
 }
 .max{
     float: left;
     margin:10px;
+    padding: 10px;
 }
 .prices{
     float: left;
+    padding: 10px;
     margin:10px;
 }
 .search button{
+    
     font-size: 1em;
 color:white;
 }
 .search img{
     background-color:blue;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 
 }
 
@@ -193,11 +215,7 @@ button {
 
 
 
-.but_3 {}
-
-.but_4 {}
-
-.but_5 {}
+/* footer*/
 
 .footer {
     background-color: blue;
