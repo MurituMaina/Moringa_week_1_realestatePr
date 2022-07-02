@@ -1,4 +1,6 @@
-
+*{
+    font-weight: 200;
+}
 body{
     background-color: white;
 }
@@ -6,6 +8,17 @@ body{
     font-size: 20px;
     border-bottom: 2px whitesmoke solid;
     padding: 20px;
+}
+.helping_1{
+    padding: 20px;
+    height: 500px;
+    width: auto;
+    image-resolution: 300dpi;
+}
+#helping{
+    float: right;
+    height:500px;
+
 }
 button{
     background-color: blue;
@@ -122,17 +135,46 @@ padding: 50px;
  margin-right: 50px;
 }
 .footer{
+    fill: blue;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: white;
-    height: 25%;
-    font-size: large;
+    font-size: xx-large;
+    width:100%;
+    display: block;
+
     
 }
-h5{
-    color:white;
-}
+
 #vallie{
-    width: fit-content;
-    text-align: center;
+    width: 200px;
+    text-align: left;
+    font-weight: bold;
     height:100px;
+    text-emphasis: bold;
     float: left;
+
 }
+#property{
+    position: relative;
+    padding: 200px;
+    text-overflow: ellipsis;
+}
+#about{
+margin:auto;
+
+position: relative;
+padding: 200px;
+text-overflow: ellipsis;
+}
+.ft_res_3{
+    float: right;
+    padding-left: 20px;
+    height: 100%;
+    }
+#resources{
+        float: right;
+        gr
+    }
