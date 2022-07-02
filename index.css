@@ -42,12 +42,13 @@ h1, h2{
     height:500px
     
 }
-.location{
+#location{
     border: 2px;
     float: left;
     padding: 20px;
     text-align: center;
     height: 200px;
+    width:150px;
 
 }
 .loc_pin{
@@ -55,25 +56,36 @@ h1, h2{
     width: 20px;
     position: relative;
 }
-.payments{
-    margin: auto;
+#payments{
+    border: 2px;
+    float: left;
     padding: 20px;
     text-align: center;
-    height
+    height: 200px;
+    width:150px;
+  /*  margin: auto;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    width: fit-content;
+    margin: auto;
+    auti*/
 }
 .Smart{
+        height:75px;
+        width: 75px;
+        margin: auto;
+        position: relative;
+    };
 
-    height: 75px;
-    width: 75px;
-    position: a;
-}
-.official{
+#official{
 
     border: 2px;
     float: right;
     padding: 20px;
     text-align: center;
     height: 200px;
+    width: 150px;
 }
 .secure{
     height: 100px;
@@ -101,4 +113,15 @@ h1, h2{
     margin: 50px;
     height: 200px;
     width: 200px;
+}
+.choose{
+padding-left: 45px;
+margin-left: 40px;
+padding: 50px;
+}
+#choose{
+ float: right;
+ padding-left: 0px;
+ padding-right: 75px;
+ margin-right: 50px;
 }
