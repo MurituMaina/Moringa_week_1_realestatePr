@@ -392,15 +392,25 @@ p .sider2 {
 
 /*properties*/
 .properties {
-    height: 2300px;
+    height: 100%;
     width: 100%;
     padding: 20px;
     margin: 20px;
+    
+}
+figcaption{
+
+    font-size: 2em;
+}
+figcaption p{
+    font-size: 16px;
+    text-align: left;
 }
 
 .properties_main {
+    text-align: justify;
     border: 10px solid black;
-    height: 1000px;
+    height: 100%;
 }
 
 .main {
@@ -415,23 +425,23 @@ p .sider2 {
 }
 
 .prts {
-    width: fit-content;
+    width: 1000px;
     height: 2000px;
 }
 
 .prts .palace {
     float: left;
     height: fit-content;
-    width: fit-content;
+    width: 100px;
     padding: 10px;
 }
 
-.prts .ptrs_ror2 {
-    position: right;
+.prts .ptrs_ror2 {left;
     height: 1000px;
     width: fit-content;
 
 }
+.prts 
 
 /* Customers*/
 .customers {
@@ -519,7 +529,7 @@ h1 {
 
 }
 
-.class>h4 {
+.class > h4 {
     font-size: xx-large;
     font-weight: bolder;
     font-style: italic;
