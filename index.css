@@ -441,57 +441,59 @@ figcaption p{
 .prts 
 
 /* Customers*/
+.customers{
+    border: 10px solid blue;
+    
+    margin: 10px;
+    height: 1000px;
+    width: 700px;
+}
 .customers_main{
     margin: 20px;
-    height: 1000px;
-    margin: 100px;
+    height: 500px;
+    width: 90%;
     padding: 20px;
 
-    border: 10px blue solid;
 }
 
     .custo_in{
-        margin: 100px;
-        border: 10px solid red;
-        font-size: 2em;
+        margin: 10px;
+        font-size: 1em;
         text-align: center;
     }
 
 
 
-.cust_a_1 {
-    height: 900px;
-    width: 700px;
+.cust_1 {
+    height: 200px;
+    width: 250px;
     padding: 20px;
     margin: 40px;
-    margin-right: 40px;
+    text-align: left;
     float: left;
 
-    border: 10px solid black;
 
 }
 
-.cust_a_2 {
+.cust_2 {
 
-    height: 900px;
-    width: 700px;
+    height: 200px;
+    width: 250px;
     padding: 20px;
     margin: 40px;
-    margin-right: 40px;
+    text-align: left;
     float: left;
 
-    border: 10px solid red;
 }
 
-.cust_a_3 {
-    height: 900px;
-    width: 700px;
+.cust_3 {
+    height: 200px;
+    width: 250px;
     padding: 20px;
     margin: 40px;
-    margin-right: 40px;
     float: left;
+    text-align: left;
 
-    border: 10px solid yellow;
 }
 .but_5{
 float: right;
@@ -500,7 +502,6 @@ float: right;
 .footer {
     background-color: blue;
     margin-top: 100px;
-    margin-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
@@ -510,68 +511,57 @@ float: right;
     height: 1000px;
     display: block;
 }
-
+/*
 .ft_val_1 {
     padding: 10px;
     float: left;
     margin: 20px;
     height: 400px;
 }
+*/
 
 .vallie {
-    width: 300px;
-    padding-right: 20px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
     text-align: left;
     font-family: 'Geneva', Tahoma, sans-serif;
     float: left;
+    
 
 }
 
-.class > h4 {
-    font-size: xx-large;
-    font-weight: bolder;
-    font-style: italic;
-}
+
 
 .ft_prt_2 {
     padding: 10px;
     float: left;
     margin: 20px;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+
+    
 }
 
-.property {
-    margin: 30px;
-    width: 500px;
-    padding: 20px;
-}
+
 
 .ft_abt_3 {
     float: left;
     margin-top: 30px;
-    margin-left: 40px;
-    height: 400px;
+    margin: 20px;
+    width: 200px;
     padding: 20px;
+    
+
 
 }
 
-.about {
-    margin: auto;
-    padding: 10px;
-}
+
 
 .ft_res_4 {
     float: right;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 100px;
     padding: 20px;
-    height: 400px;
-
-}
-
-.resources {
-    margin: auto;
-
+    width: 200px;
 }
