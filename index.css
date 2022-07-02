@@ -135,46 +135,71 @@ padding: 50px;
  margin-right: 50px;
 }
 .footer{
-    fill: blue;
+    background-color: blue;
     margin-top: 100px;
-    margin-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
     font-size: xx-large;
+    font-family: Arial Verdana;
     width:100%;
-    display: block;
-
-    
+    height: 550px;
+    display: block;  
 }
 
-#vallie{
+.ft_val_1{
+    padding: 10px;
+    float: left;
+    margin: 20px;
+    height: 400px;
+}
+.vallie{
     width: 200px;
+    padding: 20px;
     text-align: left;
-    font-weight: bold;
-    height:100px;
-    text-emphasis: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     float: left;
 
 }
-#property{
-    position: relative;
-    padding: 200px;
+.class > h4{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.ft_prt_2{
+    padding: 10px;
+    float :left;
+     margin: 20px;
+    width: 300px;
+    height: 400px;
+}
+.property{
+    margin:30px;
+    width: 500px ;
+    padding: 20px;
     text-overflow: ellipsis;
-}
-#about{
-margin:auto;
-
-position: relative;
-padding: 200px;
-text-overflow: ellipsis;
-}
-.ft_res_3{
-    float: right;
-    padding-left: 20px;
-    height: 100%;
     }
-#resources{
-        float: right;
-        gr
+.ft_abt_3{
+    float: left;
+    margin-top: 30px;
+    margin-left:40px;
+    height: 400px;
+    padding: 20px;
+    
+}
+.about{
+margin:auto;
+padding: 10px;
+}
+.ft_res_4{
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 100px;
+    padding: 20px;
+    height: 400px;
+    
+    }
+.resources{
+    margin: auto;
+        
     }
