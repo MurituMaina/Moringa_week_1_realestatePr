@@ -56,35 +56,31 @@ h1, h2{
     width: 20px;
     position: relative;
 }
-#payments{
-    border: 2px;
-    float: left;
+.payments{
+  margin: auto;
     padding: 20px;
     text-align: center;
-    height: 200px;
-    width:150px;
-  /*  margin: auto;
-    padding: 20px;
-    text-align: center;
-    height: 200px;
-    width: fit-content;
+    height: 500px;
+    width: 200px;
     margin: auto;
-    auti*/
+    
 }
-.Smart{
-        height:75px;
-        width: 75px;
+#smart{
+        height:60px;
+        width: 80px;
         margin: auto;
-        position: relative;
-    };
+
+    
+    }
 
 #official{
 
     border: 2px;
     float: right;
+    margin: auto;
     padding: 20px;
     text-align: center;
-    height: 200px;
+    height: 500px;
     width: 150px;
 }
 .secure{
@@ -124,4 +120,19 @@ padding: 50px;
  padding-left: 0px;
  padding-right: 75px;
  margin-right: 50px;
+}
+.footer{
+    color: white;
+    height: 25%;
+    font-size: large;
+    
+}
+h5{
+    color:white;
+}
+#vallie{
+    width: fit-content;
+    text-align: center;
+    height:100px;
+    float: left;
 }
