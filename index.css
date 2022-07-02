@@ -1,92 +1,107 @@
-*{
+* {
     font-weight: 200;
 }
-body{
+
+body {
     background-color: white;
 }
-.home{
+
+.home {
     font-size: 20px;
     border-bottom: 2px whitesmoke solid;
     padding: 20px;
 }
-.helping_1{
+
+.helping_1 {
     padding: 20px;
     height: 500px;
     width: auto;
     image-resolution: 300dpi;
 }
-#helping{
+
+#helping {
     float: right;
-    height:500px;
+    height: 500px;
 
 }
-button{
+
+button {
     background-color: blue;
     color: white;
     border-radius: 20px;
     padding: 5px;
 }
 
-.footer{
+.footer {
     background-color: blue;
     color: white;
 }
-a{
-color: red;
+
+a {
+    color: red;
 }
-.choose img_2{
+
+.choose img_2 {
     height: 400px;
     width: 400px;
 }
-img{
+
+img {
     height: 200px;
     width: 200px;
 }
-.products h1{
+
+.products h1 {
     color: blue;
     text-align: left;
 }
-h1, h2{
+
+h1,
+h2 {
     color: blue;
 }
-.products{
+
+.products {
     width: 100%;
     text-align: center;
-    height:500px
-    
+    height: 500px
 }
-#location{
+
+#location {
     border: 2px;
     float: left;
     padding: 20px;
     text-align: center;
     height: 200px;
-    width:150px;
+    width: 150px;
 
 }
-.loc_pin{
+
+.loc_pin {
     height: 30px;
     width: 20px;
     position: relative;
 }
-.payments{
-  margin: auto;
+
+.payments {
+    margin: auto;
     padding: 20px;
     text-align: center;
     height: 500px;
     width: 200px;
     margin: auto;
-    
+
 }
-#smart{
-        height:60px;
-        width: 80px;
-        margin: auto;
 
-    
-    }
+#smart {
+    height: 60px;
+    width: 80px;
+    margin: auto;
 
-#official{
+
+}
+
+#official {
 
     border: 2px;
     float: right;
@@ -96,45 +111,101 @@ h1, h2{
     height: 500px;
     width: 150px;
 }
-.secure{
+
+.secure {
     height: 100px;
     width: 100px;
 }
 
-.properties{
+.properties {
     height: 220px;
 }
-.palace{
+
+.palace {
     float: left;
     padding: 20px;
     margin: 50px;
     height: 200px;
     width: 200px;
 }
-.rory{
+
+.rory {
     position: relative;
     margin: 50px;
     height: 200px;
     width: 200px;
 }
-.rexona{
-    float: right;    
+
+.rexona {
+    float: right;
     margin: 50px;
     height: 200px;
     width: 200px;
 }
-.choose{
-padding-left: 45px;
-margin-left: 40px;
-padding: 50px;
+
+.choose {
+    padding-left: 45px;
+    margin-left: 40px;
+    padding: 50px;
 }
-#choose{
- float: right;
- padding-left: 0px;
- padding-right: 75px;
- margin-right: 50px;
+
+#choose {
+    float: right;
+    padding-left: 0px;
+    padding-right: 75px;
+    margin-right: 50px;
 }
-.footer{
+
+/*properties*/
+.properties {
+    height: 500px;
+}
+
+/* Customers*/
+.customers {
+    height: 500px;
+    margin: 20px;
+    padding: 20px;;
+    border: 10px solid black;
+
+    
+
+}
+h1{
+    text-align: center;
+    
+}
+.customers p{
+    text-align: center;
+    font-weight: 100;
+
+}
+.cust_a_1 {
+    height: 250px;
+    width:200px; 
+    padding:20px;
+    margin:20px;
+    float: left;
+}
+
+.cust_a_2 {
+    height: 250px;
+    width:200px;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.cust_a_3 {
+    height: 250px;
+    width:200px;
+    padding: 20px;
+    margin: 20px;
+    float: right;
+}
+
+/*Footer*/
+.footer {
     background-color: blue;
     margin-top: 100px;
     padding-left: 20px;
@@ -142,64 +213,72 @@ padding: 50px;
     color: white;
     font-size: xx-large;
     font-family: Arial Verdana;
-    width:100%;
+    width: 100%;
     height: 550px;
-    display: block;  
+    display: block;
 }
 
-.ft_val_1{
+.ft_val_1 {
     padding: 10px;
     float: left;
     margin: 20px;
     height: 400px;
 }
-.vallie{
-    width: 200px;
+
+.vallie {
+    width: 300px;
     padding: 20px;
     text-align: left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Geneva', Tahoma, sans-serif;
     float: left;
 
 }
-.class > h4{
+
+.class>h4 {
     font-size: xx-large;
     font-weight: bolder;
+    font-style: italic;
 }
-.ft_prt_2{
+
+.ft_prt_2 {
     padding: 10px;
-    float :left;
-     margin: 20px;
+    float: left;
+    margin: 20px;
     width: 300px;
     height: 400px;
 }
-.property{
-    margin:30px;
-    width: 500px ;
+
+.property {
+    margin: 30px;
+    width: 500px;
     padding: 20px;
-    text-overflow: ellipsis;
-    }
-.ft_abt_3{
+}
+
+.ft_abt_3 {
     float: left;
     margin-top: 30px;
-    margin-left:40px;
+    margin-left: 40px;
     height: 400px;
     padding: 20px;
-    
+
 }
-.about{
-margin:auto;
-padding: 10px;
+
+.about {
+    margin: auto;
+    padding: 10px;
 }
-.ft_res_4{
+
+.ft_res_4 {
     float: right;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 100px;
     padding: 20px;
     height: 400px;
-    
-    }
-.resources{
+
+}
+
+.resources {
     margin: auto;
-        
-    }
+
+}
