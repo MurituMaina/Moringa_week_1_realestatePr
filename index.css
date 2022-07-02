@@ -1,5 +1,5 @@
 * {
-    font-weight: 200;
+    font-weight: 400;
 }
 
 body {
@@ -14,7 +14,9 @@ body {
     font-size: 20px;
     border-bottom: 5px whitesmoke solid;
     padding: 30px;
+    overflow: auto;
 }
+
 .hm_v {
     float: left;
     font-family: 'Ribbon 131 Bd BJ';
@@ -137,14 +139,21 @@ body {
 .but_2 {
     color: white;
     float: left;
+    margin: 20px;
+    padding: 20px;
 }
 
-.bt_2 {
-    color: white;
-    height: 100px;
+
+.video {
+    border: 10px black ;
+}
+
+.video_ico {
     padding: 10px;
-    margin: 10px;
-    float: left;
+    height: 75px;
+    font-size: 3em;
+    border-radius: 100px;
+    margin: 20px;
 }
 
 /**/
@@ -252,10 +261,7 @@ a {
 
 
 
-.products h1 {
-    color: blue;
-    text-align: left;
-}
+
 
 h1,
 h2 {
@@ -265,10 +271,15 @@ h2 {
 .products {
     width: 100%;
     text-align: center;
-    height: 500px;
+    height: 900px;
+    padding: 20px;
+    margin: 20px;
     border: 10px solid black;
 }
-
+.products h1 {
+    color: blue;
+    text-align: left;
+}
 .products .prd_in {
     font-size: 2em;
     border: 10px solid black;
@@ -276,11 +287,10 @@ h2 {
 }
 
 .prd_in h1 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 #location {
-    border: 2px;
     float: left;
     padding: 20px;
     text-align: center;
@@ -354,40 +364,39 @@ h2 {
 
 .properties_main {
     border: 10px solid black;
-    height: 500px;
+    height: 1000px;
 }
+.main{
+    font-size: 2em;
+    border: black solid 10px;
 
+}
 .properties p {
 
     text-align: center;
 }
-
-.properties_main .prts_pal1 {
+.prts{
+    height:auto;
+}
+.prts .palace{
     float: left;
-    height: 200px;
-    width: 200px;
+    height: 1000px;
+    width: 1000px;
+    padding: 10px;
     border: 10px black solid;
 }
-
-.properties_main .prts_ror2 {
-    margin: auto;
+.prts .ptrs_ror2{
+    margin: left;
+    height: 1000px;
+    width: 1000px;
     border: 10px black solid;
+
 }
-
-.properties_main .prts_rex3 {
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-
-    border: 10px black solid;
-}
-
 /* Customers*/
 .customers {
     height: 500px;
     margin: 10px;
     padding: 20px;
-    ;
     border: 10px solid black;
 
 
