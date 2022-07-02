@@ -18,15 +18,16 @@ body {
 .home a {
     color: black;
     text-decoration: none;
-    
+
 }
-.home a:active{
+
+.home a:active {
     color: red;
 }
 
 .hm_v {
     float: left;
-    font-family: sans serif;
+    font-family: 'Ribbon 131 Bd BJ';
     font-size: 40px;
     padding: 10px;
     margin: 20px;
@@ -70,33 +71,57 @@ body {
     margin: 10px;
     float: left;
 }
+
 .but_1 {
     float: right;
-    width: 250px;  
-    margin:10px;
+    width: 250px;
+    margin: 10px;
     padding: 10px;
     height: 80px;
     color: white;
-    
+
 }
-.but_1 a{
+
+.but_1 a {
     color: white;
 }
 
 
 /* Helping*/
 .helping_1 {
-    padding: 20px;
     height: 500px;
-    width: auto;
-    image-resolution: 300dpi;
+    padding: 10px;
+    background-color: antiquewhite;
+
+
 }
 
-#helping {
+.helping_1 h1 { 
+    text-align: left;
+    font-size: 4em;
+}
+
+.crt_p {
+    text-align: left;
+    font-size: ;
+    float: left;
+    height: 400px;
+    width: 200px;
+    border:  10px black solid;
+}
+
+.but_2 {
+    color: white;
+    float: left;
+}
+.House_Img {
+    height: 300px;
+    width: 300px;
     float: right;
-    height: 500px;
-
+    padding: 30px;
 }
+
+/* */
 
 button {
     background-color: blue;
@@ -107,7 +132,6 @@ button {
 }
 
 
-.but_2 {}
 
 .but_3 {}
 
