@@ -350,11 +350,12 @@ h2 {
 
 .choose_1 {
     float: left;
-    width: 45%;
+    width: 40px;
     height: 50%;
     padding: 5px;
     margin-left: 15px;
     padding: 50px;
+    z-index: -1;
 }
 
 .choose_2 {
@@ -521,8 +522,8 @@ float: right;
 */
 
 .vallie {
-    width: 200px;
-    padding: 20px;
+    width: 500px;
+    padding: 30px;
     margin: 20px;
     text-align: left;
     font-family: 'Geneva', Tahoma, sans-serif;
@@ -534,7 +535,7 @@ float: right;
 
 
 .ft_prt_2 {
-    padding: 10px;
+    padding: 30px;
     float: left;
     margin: 20px;
     width: 200px;
@@ -549,7 +550,7 @@ float: right;
     margin-top: 30px;
     margin: 20px;
     width: 200px;
-    padding: 20px;
+    padding: 30px;
     
 
 
@@ -562,6 +563,6 @@ float: right;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 100px;
-    padding: 20px9;
+    padding: 20px;
     width: 200px;
 }
