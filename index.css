@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: white;
+    background-color: whitesmoke;
 max-width: fit-content;
     font-size: 1em;
     
@@ -108,7 +108,6 @@ max-width: fit-content;
 
 /* Helping*/
 .Help_al {
-    background-color: white;
     display: inline-block ;
     max-width: 1200px;
     height: 600px;
@@ -183,6 +182,8 @@ max-width: fit-content;
     padding: 10px;
     margin: auto;
     font-size: 1.5em;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .loc {
@@ -237,17 +238,17 @@ max-width: fit-content;
 .search .but_3 {
     background-color: blue;
     color: white;
-    font-size: 1em;
+    font-size: 2em;
     height: 100px;
     min-width: 200px;
-    padding: 10px;
+    padding: 0px;
     border-radius: 20px;
 
 }
 
 .search .but_3 img {
     float: left;
-    height: 50px;
+    height: 40px;
     padding: 5px;
     fill: grey;
 }
@@ -284,6 +285,8 @@ h2 {
     color: blue;
 }
 
+
+
 .products {
     min-width: 100px;
     text-align: center;
@@ -305,29 +308,43 @@ h2 {
 .prd_in h1 {
     font-size: 2em;
 }
+.items{
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    display: inline-block;
 
-#location {
+    border: 10px black solid;
+}
+
+.location {
+    background-color: white;
+    border-radius: 10px;
     float: left;
     padding: 20px;
     text-align: center;
-    height: 200px;
-    min-width: 150px;
+    height: 300px;
+    width: 200px;
+    margin: 40px;
 
 }
 
 .loc_pin {
-    height: 30px;
-    width: 20px;
+    height: 60px;
+    width: 40px;
     position: relative;
 }
 
-.payments {
+.payment {
+    background-color: white;
     margin: auto;
     padding: 20px;
     text-align: center;
     height: 500px;
     width: 200px;
     margin: auto;
+    border-radius: 10px;
+
 
 }
 
@@ -341,20 +358,21 @@ h2 {
 
 }
 
-#official {
-
+.official {
+    background-color: white;
     float: right;
-    margin: auto;
     padding: 20px;
     text-align: center;
     height: 500px;
-    width: 150px;
+    width: 200px;
 }
 
 .secure {
     height: 100px;
     width: 100px;
 }
+
+/* Choose*/
 
 .choose {
     height: 1000px;
