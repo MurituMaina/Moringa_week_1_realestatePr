@@ -584,15 +584,14 @@ figcaption p {
 /*Footer*/
 .footer {
     background-color: blue;
-    margin-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top:  10px;
+    padding: 20px;
     color: white;
     font-size: 50px;
     font-family: Arial Verdana;
-    width: 100%;
+    width: 1200px;
     height: 1000px;
-    display: block;
+    display: inline-block;
 }
 
 /*
@@ -607,45 +606,53 @@ figcaption p {
 .vallie {
     width: 300px;
     padding: 30px;
-    margin: 20px;
+    margin: 10px;
     text-align: left;
     font-family: 'Geneva', Tahoma, sans-serif;
     float: left;
 
-
 }
-
+.vallie h3{
+    font-size: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 
 .ft_prt_2 {
     padding: 30px;
     float: left;
-    margin: 20px;
+    margin: 10px;
     width: 200px;
+    font-size: 30px;
 
 
 }
-
+.ft_prt_2 h4{
+    font-size: 50px;
+    font-style: bold;
+}
 
 
 .ft_abt_3 {
     float: left;
-    margin-top: 30px;
-    margin: 20px;
+    margin: 10px;
     width: 200px;
     padding: 30px;
-
-
+    font-size: 30px;
 
 }
-
+.ft_abt_3 h4{
+    font-size: 50px;
+    font-style: bold;
+}
 
 
 .ft_res_4 {
     float: right;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 100px;
-    padding: 20px;
-    width: 150px;
+    font-size: 30px;
+    width: 200px;
+}
+.ft_res_4 h4{
+    font-size: 50px;
+    font-style: bold;
 }
