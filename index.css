@@ -383,7 +383,7 @@ h2 {
 /* Choose*/
 
 .choose {
-    height: 1000px;
+    height: 600px;
 
 }
 
@@ -394,7 +394,11 @@ h2 {
     padding: 5px;
     margin-left: 15px;
     padding: 50px;
-    z-index: -1;
+    
+}
+.choose_1 img{
+    height:500px;
+    width:600px;
 }
 
 .choose_2 {
@@ -404,7 +408,7 @@ h2 {
     margin-right: 5px;
     font-size: 2em;
     width: 45%;
-    height: 40%;
+    height: 200px;
 }
 
 .choose_2 p {
@@ -412,27 +416,26 @@ h2 {
     width: 100%;
 }
 
-p .sidel1 {
+.sidel{
     text-align: left;
+    float: left;
+    width: 200px;
 
 }
 
-p .sidel2 {
+.sider {
+    
     text-align: left;
+    float: right;
+
 }
 
-p .sider1 {
-    text-align: right;
-}
 
-p .sider2 {
-    text-align: left;
-}
 
 /*properties*/
 .properties {
-    height: 100%;
-    width: 100%;
+    height: 600px;
+    width: 1200px;
     padding: 20px;
     margin: 20px;
 
@@ -451,7 +454,7 @@ figcaption p {
 .properties_main {
     text-align: justify;
     height: 1000px;
-    width: 1000px;
+    width: 1260px;
     border: yellow solid 10px;
 }
 
@@ -474,12 +477,22 @@ figcaption p {
     width: 400px;
 }
 
+.prts{
+    border: 10px solid red;
+    width: 200px;
+}
 .prts__pal1 {
     float: left;
-    height: 400px;
-    width: 100px;
+    height: 600px;
+    width: 400px;
     padding: 10px;
 }
+
+.prts_pal1 img{
+    height:500px;
+    width:300px;
+}
+
 
 .prts .ptrs_ror2 {
     margin: auto;
