@@ -5,27 +5,32 @@
 body {
     margin: 0;
     background-color: white;
-    
+max-width: fit-content;
     font-size: 1em;
     
 }
 
 /* */
-.home {
-    height: 100px;
-    min-width: 100px;
-    font-size: 20px;
-     -bottom: 5px whitesmoke solid;
-    padding: 30px;
-}
+.home_o{
+    display: inline-block;
+    
 
+}
+.home {
+    color: black;
+    height: 50px;
+    width: 1100px;
+    font-size: 20px;
+    border: 5px red solid;
+    padding: 30px;
+    float: right;
+}
 .hm_v {
     float: left;
     font-family: 'Ribbon 131 Bd BJ';
     font-size: 40px;
-    padding: 10px;
     margin: 20px;
-    margin-right: 400px;
+    border: 10px solid yellow;
 }
 
 .home a {
@@ -42,7 +47,7 @@ body {
 
 .hm_h {
     padding: 10px;
-    width: 250px;
+    min-width: 100px;
     margin: 10px;
     float: left;
     font-style: underline;
@@ -50,14 +55,14 @@ body {
 
 .hm_r {
     padding: 10px;
-    width: 250px;
+    min-width: 100px;
     margin: 10px;
     float: left;
 
 }
 
 .hm_l {
-    width: 250px;
+    min-width: 100px;
     padding: 10px;
     margin: 10px;
     float: left;
@@ -65,14 +70,14 @@ body {
 }
 
 .hm_a {
-    width: 250px;
+    min-width: 100px;
     padding: 10px;
     margin: 10px;
     float: left;
 }
 
 .hm_c {
-    width: 250px;
+    min-width: 100px;
     padding: 10px;
     margin: 10px;
     float: left;
@@ -80,7 +85,7 @@ body {
 
 .but_1 {
     float: right;
-    width: 250px;
+    min-width: 100px;
     margin: 10px;
     padding: 10px;
     height: 80px;
@@ -94,18 +99,18 @@ body {
 }
 
 
+
 /* Helping*/
 .Help_al {
     background-color: white;
-    padding: 20px;
-    width: 100%;
+    
+    max-width: 1000px;
     height: 900px;
 }
 
 .helping_1 {
     height: 800px;
-    width: 1000px;
-    padding: 20px;
+    min-width: 300px;
     float: left;
     text-align: left;
     font-size: 1em;
@@ -114,7 +119,7 @@ body {
 
 .helping_1 h1 {
     text-align: left;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .helping_1 p {
@@ -134,9 +139,8 @@ body {
 
 .House_Img img {
     margin: 20px;
-    height: 800px;
-    width: 1000px;
-    margin-right: 100px;
+    height: 500px;
+    float: right;
 }
 
 .but_2 {
@@ -148,23 +152,22 @@ body {
 
 
 .video {
-    border : 10px black;
+    border : 10px black solid;
 }
 
 .video_ico {
     padding: 10px;
-    height: 75px;
-    font-size: 3em;
-    border-radius: 100px;
+        font-size: 3em;
+    border-radius: 20px;
     margin: 20px;
 }
 
 /**/
 .search {
-    width: 1400px;
+    max-width: 1000px;
     padding: 10px;
     margin: auto;
-    font-size: 4em;
+    font-size: 2    em;
 }
 
 .loc {
@@ -221,7 +224,7 @@ body {
     color: white;
     font-size: 1em;
     height: 100px;
-    width: 400px;
+    min-width: 400px;
     padding: 10px;
 
 }
@@ -272,7 +275,7 @@ h2 {
 }
 
 .products {
-    width: 100%;
+    min-width: 100px;
     text-align: center;
     height: 900px;
     padding: 20px;
@@ -298,7 +301,7 @@ h2 {
     padding: 20px;
     text-align: center;
     height: 200px;
-    width: 150px;
+    min-width: 150px;
 
 }
 
@@ -410,7 +413,7 @@ figcaption p{
 .properties_main {
     text-align: justify;
     height: 1000px;
-    width: 1800px;
+    width: 1000px;
     border: yellow solid 10px;
 }
 
@@ -422,7 +425,7 @@ figcaption p{
 }
 
 .Images{
-    width: 1800px;
+    width: 1000px;
     height: 700px;
 
     border: 10px red solid;
@@ -468,7 +471,7 @@ figcaption p{
 .customers_main{
     margin: 20px;
     height: 500px;
-    width: 90%;
+    width: 1000px;
     padding: 20px;
 
 }
