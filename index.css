@@ -455,7 +455,6 @@ figcaption p {
     text-align: justify;
     height: 1000px;
     width: 1260px;
-    border: yellow solid 10px;
 }
 
 .main {
@@ -469,20 +468,18 @@ figcaption p {
 
 .Images {
     display: inline-block;
-    width: 1280px;
-    height: 700px;
+    width: 1100px;
+    height: 300px;
 
-    border: 10px red solid;
 }
 
 .Images img {
-    height: 500px;
-    width: 500px;
-    border: 10px purple solid;
+    height: 200px;
+    width: 350px;
+
 }
 
 .prts{
-    border: 10px solid red;
     width: 10px;
 }
 .prts__pal1 {
@@ -490,6 +487,7 @@ figcaption p {
     height: 600px;
     width: 300px;
     padding: 10px;
+
 }
 
 .prts_pal1 img{
@@ -500,34 +498,35 @@ figcaption p {
 
 .ptrs_ror2 {
     margin: auto;
-
     height: 400px;
     width: 300px;
 
 }
 
 .prts_rex3 {
+    float: right;
     height: 400px;
     width: 300px;
-    float: right;
-    margin-right: 500px;
-    content: normal;
+    margin-left: 30px;
 
-    border: 10px yellow solid;
 
+}
+.but_4{
+    float:right;
+    background-color: blue;
+    border-radius: 10px ;
 }
 
 /* Customers*/
 .customers {
-    border: 10px solid blue;
 
     margin: 10px;
-    height: 1000px;
-    width: 700px;
+    height: 500px;
+    width: 1000px;
 }
 
 .customers_main {
-    margin: 20px;
+    
     height: 500px;
     width: 1000px;
     padding: 20px;
@@ -535,7 +534,6 @@ figcaption p {
 }
 
 .custo_in {
-    margin: 10px;
     font-size: 1em;
     text-align: center;
 }
@@ -543,38 +541,43 @@ figcaption p {
 
 
 .cust_1 {
-    height: 200px;
+    height: 300px;
     width: 250px;
-    padding: 20px;
-    margin: 40px;
-    text-align: left;
-    float: left;
+     text-align: left;
+     padding: 20px;
+    float: right;
+    background-color: white;
+
 
 
 }
 
 .cust_2 {
 
-    height: 200px;
+    height: 300px;
     width: 250px;
-    padding: 20px;
-    margin: 40px;
     text-align: left;
-    float: left;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+
 
 }
 
 .cust_3 {
-    height: 200px;
+    height: 300px;
     width: 250px;
-    padding: 20px;
-    margin: 40px;
+    margin-left: 30px;
     float: left;
+    padding: 20px;
     text-align: left;
+    background-color: white;
 
 }
 
 .but_5 {
+    background-color: blue;
+    border-radius: 10px;
     float: right;
 }
 
