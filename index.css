@@ -93,6 +93,8 @@ max-width: fit-content;
     text-align: center;
     padding: 10px;
     height: 40px;
+    background-color: blue;
+    border-radius: 20px;
     
 
 }
@@ -109,7 +111,7 @@ max-width: fit-content;
     background-color: white;
     display: inline-block ;
     max-width: 1200px;
-    height: 900px;
+    height: 600px;
 }
 
 .helping_1 {
@@ -121,38 +123,41 @@ max-width: fit-content;
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    border: 10px red solid;
 }
 
 .helping_1 h1 {
     text-align: left;
-    font-size: 2em;
+    font-size: 3em;
     width: 500px;
 }
 
 .helping_1 p {
     font-size: 2em;
-    width: 500px;
+    width: 450px;
 }
-
+/*
 .crt_p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     text-decoration: none;
 }
+*/
 
 .House_Img {
     float: right;
+    max-width:700px;
 
 }
 
 .House_Img img {
     margin: 20px;
-    height: 500px;
+    width:550px;
+    height: 400px;
     float: right;
 }
 
 .but_2 {
+    background-color: blue;
     color: white;
     float: left;
     margin: 20px;
@@ -169,14 +174,15 @@ max-width: fit-content;
         font-size: 3em;
     border-radius: 20px;
     margin: 20px;
+    background-color: blue;
 }
 
 /**/
 .search {
-    max-width: 1280px;
+    max-width: 900px;
     padding: 10px;
     margin: auto;
-    font-size: 2    em;
+    font-size: 1.5em;
 }
 
 .loc {
@@ -233,8 +239,9 @@ max-width: fit-content;
     color: white;
     font-size: 1em;
     height: 100px;
-    min-width: 400px;
+    min-width: 200px;
     padding: 10px;
+    border-radius: 20px;
 
 }
 
@@ -247,13 +254,7 @@ max-width: fit-content;
 
 /* */
 
-button {
-    background-color: blue;
-    color: white;
-    font-size: 20px;
-    border-radius: 20px;
-    padding: 20px;
-}
+
 
 
 
