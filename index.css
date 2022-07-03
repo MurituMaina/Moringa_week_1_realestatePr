@@ -460,13 +460,16 @@ figcaption p {
 
 .main {
     font-size: 2em;
-    border: solid green 10px;
+    margin: auto;
     text-align: center;
-
+    width: 760px;
+    padding: 20px;
+    
 }
 
 .Images {
-    width: 1000px;
+    display: inline-block;
+    width: 1280px;
     height: 700px;
 
     border: 10px red solid;
@@ -474,17 +477,18 @@ figcaption p {
 
 .Images img {
     height: 500px;
-    width: 400px;
+    width: 500px;
+    border: 10px purple solid;
 }
 
 .prts{
     border: 10px solid red;
-    width: 200px;
+    width: 10px;
 }
 .prts__pal1 {
     float: left;
     height: 600px;
-    width: 400px;
+    width: 300px;
     padding: 10px;
 }
 
@@ -494,7 +498,7 @@ figcaption p {
 }
 
 
-.prts .ptrs_ror2 {
+.ptrs_ror2 {
     margin: auto;
 
     height: 400px;
