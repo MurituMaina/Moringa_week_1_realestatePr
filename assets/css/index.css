@@ -546,6 +546,7 @@ figcaption p {
     width: 250px;
     text-align: left;
     padding: 20px;
+    
     float: right;
     background-color: white;
 
@@ -586,88 +587,87 @@ figcaption p {
 
 /*Footer*/
 
-footer{
+footer {
     background-color: brown;
 }
+
 .footer {
-    background-color:darkblue;
-    display: flex;
-    /* margin-top: 10px;
-    /* padding: 40px; */
+    background-color: darkblue;
+    display: block;
+    padding: 40px;
     color: white;
     font-size: 20px;
     font-family: Arial Verdana;
     width: 1200px;
-    height: 1000px;
-    display: inline-block; */
+    height: 500px;
+    display: inline-block;
 }
 
-/*
+
 .ft_val_1 {
     padding: 10px;
-    float: left;
     margin: 20px;
     height: 400px;
 }
-*/
+
 
 .vallie {
-   
+
     width: 300px;
-    /*height: 00px;
+    height: 200px;
     font-size: 30px;
     padding: 30px;
     margin: 10px;
     text-align: left;
     font-family: 'Geneva', Tahoma, sans-serif;
-    float: left; */
+    float: left;
 
 }
 
 .vallie h3 {
-    /* font-size: 1em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .ft_prt_2 {
-    /* padding: 30px;
+    padding: 30px;
     float: left;
     margin: 10px;
     width: 200px;
-    font-size: 30px; */
+    font-size: 30px;
 
 
 }
 
 .ft_prt_2 h4 {
-    /* font-size: 50px;
-    font-style: bold; */
+    font-size: 50px;
+    font-style: bold;
 }
 
 
 .ft_abt_3 {
-    /* float: left;
+    float: left;
     margin: 10px;
     width: 200px;
     padding: 30px;
-    font-size: 30px; */
+    font-size: 30px;
 
 }
 
 .ft_abt_3 h4 {
-    /* font-size: 50px;
-    font-style: bold; */
+    font-size: 50px;
+    font-style: bold;
 }
 
 
 .ft_res_4 {
-    /* float: right;
+    float: right;
     font-size: 30px;
-    width: 200px; */
+    width: 200px;
 }
 
 .ft_res_4 h4 {
-    /* font-size: 50px;
-    font-style: bold; */
+    font-size: 50px;
+    font-style: bold;
 }
