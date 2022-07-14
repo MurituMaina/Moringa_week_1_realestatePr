@@ -1,16 +1,17 @@
 body {
     margin: 0px;
-    background-color: whitesmoke;
+    background-color: #FAFAFA;
     width: 1260px;
+    overflow-x: hidden;
 }
 
 
 /* */
+
 .home_o {
     display: inline-block;
+    font-family: 'Space grotesk', sans-serif;
     padding: .10px;
-
-
 }
 
 .home {
@@ -20,29 +21,28 @@ body {
     font-size: 20px;
     padding: 30px;
     float: right;
-
 }
 
 .hm_v {
     float: left;
-    font-family: 'Ribbon 131 Bd BJ';
+    font-family: 'Oleo Script', sans-serif;
     font-size: 40px;
     font-style: italic bold;
     padding-right: 30px;
-
 }
 
+
+/* //#2549D3 */
+
 .home a {
-    color: blue;
+    color: #2549D3;
     text-decoration: none;
     font-size: 20px;
     float: right;
-
 }
 
 .home a:active {
-
-    color: blue;
+    color: #2549D3;
 }
 
 .hm_h {
@@ -59,7 +59,6 @@ body {
     min-width: 100px;
     margin: 10px;
     float: left;
-
 }
 
 .hm_l {
@@ -67,7 +66,6 @@ body {
     padding: 10px;
     margin: 10px;
     float: left;
-
 }
 
 .hm_a {
@@ -90,10 +88,8 @@ body {
     text-align: center;
     padding: 10px;
     height: 40px;
-    background-color: blue;
+    background-color: #2549D3;
     border-radius: 20px;
-
-
 }
 
 .but_1 a {
@@ -102,8 +98,8 @@ body {
 }
 
 
-
 /* Helping*/
+
 .Help_al {
     display: inline-block;
     max-width: 1200px;
@@ -118,7 +114,6 @@ body {
     text-align: left;
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .helping_1 h1 {
@@ -132,6 +127,7 @@ body {
     width: 450px;
 }
 
+
 /*
 .crt_p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -143,7 +139,6 @@ body {
 .House_Img {
     float: right;
     max-width: 700px;
-
 }
 
 .House_Img img {
@@ -154,7 +149,7 @@ body {
 }
 
 .but_2 {
-    background-color: blue;
+    background-color: #2549D3;
     color: white;
     float: left;
     margin: 20px;
@@ -162,28 +157,31 @@ body {
     font-size: 20px;
 }
 
-
 .video {
     width: 400px
 }
 
 .video_ico {
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 3em;
-    border-radius: 75%;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
     margin: 20px;
-    background-color: blue;
+    background-color: #2549D3;
     color: white;
 }
 
+
 /**/
+
 .search {
     height: 100px;
     max-width: 900px;
     padding: 10px;
     margin: auto;
     font-size: 1.5em;
-    background-color: white;
+    background-color: #FAFAFA;
     border-radius: 10px;
 }
 
@@ -204,12 +202,11 @@ body {
     min-width: 100px;
     font-size: 30px;
     margin: 0px;
-
 }
 
 .loc img {
     height: 20px;
-    background-color: white;
+    background-color: #FAFAFA;
 }
 
 .prot {
@@ -237,7 +234,7 @@ body {
 }
 
 .search .but_3 {
-    background-color: blue;
+    background-color: #2549D3;
     color: white;
     font-size: 2em;
     height: 60px;
@@ -245,25 +242,21 @@ body {
     margin-right: 20px;
     border-radius: 20px;
     float: right;
-
 }
 
 .search .but_3 img {
     float: left;
     height: 40px;
     padding: 5px;
-    fill: white;
+    fill: #FAFAFA;
     ;
 }
+
 
 /* */
 
 
-
-
-
 /* footer*/
-
 
 a {
     color: white;
@@ -275,16 +268,10 @@ a {
     width: 350px;
 }
 
-
-
-
-
 h1,
 h2 {
-    color: blue;
+    color: #2549D3;
 }
-
-
 
 .products {
     min-width: 100px;
@@ -292,22 +279,21 @@ h2 {
     height: 900px;
     padding: 20px;
     margin: 20px;
-    color: darkslateblue;
+    color: #0f298b;
 }
 
 .products h1 {
-    color: blue;
+    color: #2549D3;
     text-align: left;
 }
 
 .products .prd_in {
     font-size: 2em;
-
 }
 
 .prd_in h1 {
     font-size: 2em;
-    color: darkslateblue;
+    color: #0f298b;
 }
 
 .items {
@@ -315,8 +301,7 @@ h2 {
     width: 1000px;
     height: 300px;
     display: inline-block;
-    color: darkslateblue;
-
+    color: #0f298b;
 }
 
 .items h2 {
@@ -324,7 +309,7 @@ h2 {
 }
 
 .location {
-    background-color: white;
+    background-color: #FAFAFA;
     border-radius: 10px;
     float: left;
     padding: 20px;
@@ -332,7 +317,6 @@ h2 {
     height: 300px;
     width: 200px;
     margin: 40px;
-
 }
 
 .loc_pin {
@@ -342,7 +326,7 @@ h2 {
 }
 
 .payment {
-    background-color: white;
+    background-color: #FAFAFA;
     margin: auto;
     padding: 20px;
     text-align: center;
@@ -353,14 +337,13 @@ h2 {
 }
 
 #smart {
-
     height: 120px;
     width: 100px;
     margin-top: 40px;
 }
 
 .official {
-    background-color: white;
+    background-color: #FAFAFA;
     float: right;
     padding: 20px;
     text-align: center;
@@ -369,7 +352,6 @@ h2 {
     border-radius: 10px;
     margin-top: 40px;
     margin-right: 40px;
-
 }
 
 .secure {
@@ -377,11 +359,11 @@ h2 {
     width: 100px;
 }
 
+
 /* Choose*/
 
 .choose {
     height: 600px;
-
 }
 
 .choose_1 {
@@ -391,7 +373,6 @@ h2 {
     padding: 5px;
     margin-left: 15px;
     padding: 50px;
-
 }
 
 .choose_1 img {
@@ -402,7 +383,6 @@ h2 {
 .choose_2 {
     float: right;
     text-align: center;
-
     margin-right: 5px;
     font-size: 20px;
     width: 500px;
@@ -418,29 +398,24 @@ h2 {
     text-align: left;
     float: left;
     width: 200px;
-
 }
 
 .sider {
-
     text-align: left;
     float: right;
-
 }
 
 
-
 /*properties*/
+
 .properties {
     height: 600px;
     width: 1200px;
     padding: 20px;
     margin: 20px;
-
 }
 
 figcaption {
-
     font-size: 2em;
 }
 
@@ -461,20 +436,17 @@ figcaption p {
     text-align: center;
     width: 760px;
     padding: 20px;
-
 }
 
 .Images {
     display: inline-block;
     width: 1100px;
     height: 300px;
-
 }
 
 .Images img {
     height: 200px;
     width: 350px;
-
 }
 
 .prts {
@@ -486,7 +458,6 @@ figcaption p {
     height: 600px;
     width: 300px;
     padding: 10px;
-
 }
 
 .prts_pal1 img {
@@ -494,12 +465,10 @@ figcaption p {
     width: 300px;
 }
 
-
 .ptrs_ror2 {
     margin: auto;
     height: 400px;
     width: 300px;
-
 }
 
 .prts_rex3 {
@@ -507,32 +476,29 @@ figcaption p {
     height: 400px;
     width: 300px;
     margin-left: 30px;
-
-
 }
 
 .but_4 {
     float: right;
     height: 30px;
     color: white;
-    background-color: blue;
+    background-color: #2549D3;
     border-radius: 10px;
 }
 
-/* Customers*/
-.customers {
 
+/* Customers*/
+
+.customers {
     margin: 10px;
     height: 500px;
     width: 1000px;
 }
 
 .customers_main {
-
     height: 500px;
     width: 1000px;
     padding: 20px;
-
 }
 
 .custo_in {
@@ -540,31 +506,22 @@ figcaption p {
     text-align: center;
 }
 
-
-
 .cust_1 {
     height: 300px;
     width: 250px;
     text-align: left;
     padding: 20px;
-    
     float: right;
-    background-color: white;
-
-
-
+    background-color: #FAFAFA;
 }
 
 .cust_2 {
-
     height: 300px;
     width: 250px;
     text-align: left;
     margin: auto;
     padding: 20px;
-    background-color: white;
-
-
+    background-color: #FAFAFA;
 }
 
 .cust_3 {
@@ -574,29 +531,28 @@ figcaption p {
     float: left;
     padding: 20px;
     text-align: left;
-    background-color: white;
-
+    background-color: #FAFAFA;
 }
 
 .but_5 {
-    color: white;
+    color: #FAFAFA;
     font-size: 30px;
-    background-color: blue;
+    background-color: #2549D3;
     border-radius: 10px;
     float: right;
     margin-bottom: 30px;
 }
 
+
 /*Footer*/
 
 footer {
-    background-color: brown;
     display: flex;
 }
 
 .footer {
-    background-color: #2549d3;   
-    position: absolute; 
+    background-color: #2549d3;
+    position: absolute;
     display: flex;
     padding-right: 100px;
     color: white;
@@ -604,77 +560,70 @@ footer {
     font-family: Arial Verdana;
     width: 100%;
     height: 700px;
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
 }
 
-
 .ft_val_1 {
-    padding: 10px;
-    margin: 20px;
+    /* padding: 10px; */
+    width: 50%;
+    /* margin: 20px; */
     height: 400px;
 }
 
-
 .vallie {
-
-    width: 25%;
+    width: 350px;
     height: 200px;
-    font-size: 30px;
+    font-size: 1em;
     padding: 20px;
     margin: 10px;
     text-align: left;
-    font-family:"Oleo Script";
+    font-family: "Space grotesk";
     float: left;
-
 }
 
 .vallie h3 {
-    font-size: 1em;
-    font-family: 'Space Grotesk', 'Oleo Script';
+    font-size: 2em;
+    font-family: 'Oleo Script', sans-serif;
 }
-
 
 .ft_prt_2 {
     padding: 30px;
-    float: left;
+    float: right;
     margin: 10px;
-    width: 25%;
-    font-size: 30px;
-
-
+    width: 300px;
+    font-size: 1.3em;
 }
 
-.ft_prt_2 h4 {
-    font-size: 50px;
+.ft_prt_2 h3 {
+    font-size: 1.8em;
     font-style: bold;
+    font-family: "Space grotesk", sans-serif;
 }
-
 
 .ft_abt_3 {
     float: left;
     margin: 10px;
-    width: 25%;
+    width: 250px;
     padding: 30px;
-    font-size: 30px;
-
+    font-size: 1.1em;
 }
 
-.ft_abt_3 h4 {
-    font-size: 50px;
+.ft_abt_3 h3 {
+    font-size: 2em;
     font-style: bold;
 }
-
 
 .ft_res_4 {
     float: right;
     padding: 30px;
     margin: 10px;
-    font-size: 30px;
+    font-size: 1.1em;
     width: 25%;
 }
 
-.ft_res_4 h4 {
-    font-size: 50px;
+.ft_res_4 h3 {
+    font-size: 1.8em;
+    font-family: 'Space grotesk', sans-serif;
     font-style: bold;
 }
